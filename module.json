@@ -3,7 +3,7 @@
     "title": "Soundweave",
     "author": "Antagnostic",
     "description": "A module for forwarding sound from the GM's machine to the rest of the party.",
-    "version": "0.1.0",  
+    "version": "0.1.0",
     "compatibility": {
         "minimum": "10.0.0",
         "verified": "10.2.1"
@@ -27,19 +27,5 @@
             "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json"
         }
     ],
-    "config": {
-        "volume": {
-            "name": "Volume",
-            "hint": "Adjust the volume of the forwarded sound.",
-            "scope": "world",
-            "config": true,
-            "default": 1,
-            "type": "number",
-            "range": {
-                "min": 0,
-                "max": 1,
-                "step": 0.1
-            }
-        }
-    }
+    "download": "https://github.com/Antagnostic/soundweave/releases/download/0.1.0/soundweave-0.1.0.zip"
 }
