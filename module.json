@@ -6,7 +6,7 @@
     "version": "0.1.0",
     "compatibility": {
         "minimum": "10.0.0",
-        "verified": "10.2.1"
+        "verified": "10.291"
     },
     "homepage": "https://github.com/antagnostic/soundweave",
     "license": "MIT",
